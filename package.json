@@ -1,0 +1,23 @@
+{
+  "name": "nightwatchjs-nimble-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate example of nightwatch JS for Nimble Approach",
+  "main": "index.js",
+  "scripts": {
+    "testChrome": "nightwatch --env chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimbleapproach/nightwatchjs-ui-test.git"
+  },
+  "author": "Bradley Reaney",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^97.0.4",
+    "geckodriver": "^3.0.1",
+    "nightwatch": "^2.0.5"
+  },
+  "dependencies": {
+    "casual": "^1.6.2"
+  }
+}
